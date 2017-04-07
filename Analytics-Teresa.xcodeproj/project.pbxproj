@@ -412,6 +412,7 @@
 				F6D131491E9702B7000C5063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6D1314A1E9702B7000C5063 /* Build configuration list for PBXNativeTarget "Analytics-TeresaTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				F6D1314C1E9702B7000C5063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
