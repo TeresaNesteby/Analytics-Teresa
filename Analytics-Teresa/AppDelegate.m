@@ -23,23 +23,23 @@
 
 //-----------------------------------------
 //identify call
-//    NSDictionary* identify = @{ @"userId": @"78",
-//                                @"traits": @{ @"email": @"teresa@segment.com"}};
-//    NSError* error;
-//    NSData* requestData = [NSJSONSerialization dataWithJSONObject:identify options:0 error:&error];
-//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api-segment-io-cm9xu7l447kc.runscope.net/v1/identify"]];
+    NSDictionary* identify = @{ @"userId": @"78",
+                                @"traits": @{ @"email": @"teresa@segment.com"}};
+    NSError* error;
+    NSData* requestData = [NSJSONSerialization dataWithJSONObject:identify options:0 error:&error];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api-segment-io-cm9xu7l447kc.runscope.net/v1/identify"]];
 
 //-----------------------------------------
 //track call
-    NSDictionary* track = @{ @"userId": @"3333",
-                             @"event": @"objc track tests 22222",
-                             @"properties": @{ @"property key": @"property value"}};
-    
-    
-    NSError* error;
-    NSData* requestData = [NSJSONSerialization dataWithJSONObject:track options:0 error:&error];
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api-segment-io-cm9xu7l447kc.runscope.net/v1/track"]];
-    
+//    NSDictionary* track = @{ @"userId": @"3333",
+//                             @"event": @"objc track tests 22222",
+//                             @"properties": @{ @"property key": @"property value"}};
+//    
+//    
+//    NSError* error;
+//    NSData* requestData = [NSJSONSerialization dataWithJSONObject:track options:0 error:&error];
+//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api-segment-io-cm9xu7l447kc.runscope.net/v1/track"]];
+//    
 //  --------------------------------------
 
     

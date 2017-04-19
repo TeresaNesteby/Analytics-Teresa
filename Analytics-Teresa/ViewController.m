@@ -26,10 +26,15 @@
 }
 
 - (IBAction)identifyCall {
+    NSString* hello = @"hello";
+    NSLog(@"%@", hello);
+    
 }
 
 
 - (IBAction)trackCall {
+    NSString* goodbye = @"goodbye";
+    NSLog(@"%@", goodbye);
 }
 
 
