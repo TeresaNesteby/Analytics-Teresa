@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6C464E81EA80A1A003BFA85 /* TeresaAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C464E71EA80A1A003BFA85 /* TeresaAnalytics.m */; };
 		F6D1312A1E9702B7000C5063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D131291E9702B7000C5063 /* main.m */; };
 		F6D1312D1E9702B7000C5063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D1312C1E9702B7000C5063 /* AppDelegate.m */; };
 		F6D131301E9702B7000C5063 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D1312F1E9702B7000C5063 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6C464E61EA80A1A003BFA85 /* TeresaAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeresaAnalytics.h; sourceTree = "<group>"; };
+		F6C464E71EA80A1A003BFA85 /* TeresaAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeresaAnalytics.m; sourceTree = "<group>"; };
 		F6D131251E9702B7000C5063 /* Analytics-Teresa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Analytics-Teresa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D131291E9702B7000C5063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6D1312B1E9702B7000C5063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 			children = (
 				F6C464E51EA7FA85003BFA85 /* New Group */,
 				F6D1312B1E9702B7000C5063 /* AppDelegate.h */,
+				F6C464E61EA80A1A003BFA85 /* TeresaAnalytics.h */,
+				F6C464E71EA80A1A003BFA85 /* TeresaAnalytics.m */,
 				F6D1312C1E9702B7000C5063 /* AppDelegate.m */,
 				F6D1312E1E9702B7000C5063 /* ViewController.h */,
 				F6D1312F1E9702B7000C5063 /* ViewController.m */,
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C464E81EA80A1A003BFA85 /* TeresaAnalytics.m in Sources */,
 				F6D131301E9702B7000C5063 /* ViewController.m in Sources */,
 				F6D1312D1E9702B7000C5063 /* AppDelegate.m in Sources */,
 				F6D1312A1E9702B7000C5063 /* main.m in Sources */,
