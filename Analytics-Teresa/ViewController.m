@@ -15,6 +15,8 @@
 
 @implementation ViewController
 
+@synthesize output, userId;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -25,6 +27,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)theText:(id)sender {
+}
+
+- (IBAction)finished:(UITextField *)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)submitButton:(id)sender {
+    
+//    TeresaAnalytics *analytics = [[TeresaAnalytics alloc] init];
+//    [analytics newIdentify];
+
+    
+}
+
+
 
 - (IBAction)identifyCall {
     TeresaAnalytics *analytics = [[TeresaAnalytics alloc] init];
@@ -38,6 +58,16 @@
     
 
 }
+- (IBAction)screenCall{
+    TeresaAnalytics *analytics = [[TeresaAnalytics alloc] init];
+    [analytics screen];
+    
+}
 
 
+
+
+
+- (IBAction)submitIdentify:(UIButton *)sender {
+}
 @end

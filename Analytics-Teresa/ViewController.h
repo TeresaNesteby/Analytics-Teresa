@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *output;
+
+@property (weak, nonatomic) IBOutlet UITextField *userId;
+
+//- (IBAction)submitIdentify:(UIButton *)sender {
+//    [output setText:userId.text];
+//};
 
 @end
 

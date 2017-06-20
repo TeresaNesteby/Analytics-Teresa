@@ -12,6 +12,7 @@
 
 - (void)identify;
 - (void)track;
+- (void)screen;
 
 
 @end
